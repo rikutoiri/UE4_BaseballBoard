@@ -1,0 +1,36 @@
+Nowbase配列を作りヒットが出るたびに配列のindexを＋１し操作対象を切り替わらないようにする
+Nowbaseの中身の数字0~4
+０、ホーム（走塁前）
+１、一塁
+２、二塁
+３、三塁
+４、ホーム（帰還）
+Nowbase{0,      0,       0,      0,}
+              {1人目,2人目,3人目,4人目}
+
+初期状態
+NowBase[0]
+Nowbase{0, 0, 0, 0,}
+
+ヒット
+
+Nowbase[0]の中身に＋１（一人目一塁へ）
+Nowbase{1, 0, 0, 0}
+
+ヒット
+
+Nowbase[0]の中身に＋１（一人目二塁へ）
+Nowbase{2, 0, 0, 0}
+
+Nowbase[0]のindexに＋１
+Nowbase[1]の中身に＋１
+Nowbase{2, 1, 0, 0}
+
+ヒット
+Nowbase[0]の中身に＋１（一人目三塁へ）
+Nowbase{3, 1, 0, 0}
+
+Nowbase[0]のindexに＋１
+Nowbase[1]の中身に＋１
+Nowbase{3, 2, 0, 0}
+
