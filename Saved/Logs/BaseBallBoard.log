@@ -1068,3 +1068,7 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.12.13-00.52.58:343][398]MapCheck: マップチェックが完了: 0 エラー、 1 警告、完了に 0.658ミリ秒かかりました。
 [2022.12.13-00.53.01:042][530]LogSlate: Window 'メッセージ ログ' being destroyed
 [2022.12.13-00.53.01:047][530]LogSlate: Window 'メッセージ ログ' being destroyed
+[2022.12.13-00.56.47:310][816]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/Runner.Runner
+[2022.12.13-00.56.47:438][816]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 126 classes and 0 folders.
+[2022.12.13-00.56.48:239][816]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.12.13-00.56.50:994][968]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
