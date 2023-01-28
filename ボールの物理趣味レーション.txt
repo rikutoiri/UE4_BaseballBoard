@@ -1,0 +1,5 @@
+Simulate Phyiscsのオンにした場合、コリジョン欄のSimulate Generates Hitをオンにしなければならない
+
+これだとボールは消えるがヒット判定にならないためヒット板にコリジョンをつけて
+On Component Begin Overlapをつなげなければならない。
+このとき、BP_Ball3とキャストする
