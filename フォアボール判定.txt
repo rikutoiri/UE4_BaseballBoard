@@ -1,0 +1,3 @@
+ストライクゾーンに入って（NotBallflgがtrue）NoHitに触れたらストライク
+
+ストライクゾーンに入らず（NoBallflgがfalse）NoHitに触れたらボール
